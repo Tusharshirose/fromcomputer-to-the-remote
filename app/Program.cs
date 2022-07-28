@@ -2,6 +2,7 @@
 //System is a namespace used for this class which contains the class Console and functions like WriteLine
 //We will group the class and the function in the namespace firstconsoleapp
 using System;
+using firstconsoleapp1;
 namespace firstconsoleapp
 {
     //Class name should be same as the file name
@@ -38,8 +39,19 @@ namespace firstconsoleapp
                 case "M":
                     Console.WriteLine($"\n Your result {a1} * {a2} = "+ (a1*a2));
                     break;
+                case "Q":
+                    Console.WriteLine($"\n Your result {a1} % {a2} = "+ (a1%a2));
+                    break;
             }
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("creating the object and displaying the color");
+            //by default all the variables are private
+            car car0 = new car();
+            car0.display();
+            BMW car1=new BMW();
+            car1.display();
+            Audi car2=new Audi();
+            car2.display();
             int number=60;
             double number2=60.0;
             string name="tushar";
