@@ -38,6 +38,9 @@ namespace firstconsoleapp
                 case "M":
                     Console.WriteLine($"\n Your result {a1} * {a2} = "+ (a1*a2));
                     break;
+                case "SR":
+                    Console.WriteLine($"\n Your result {a1} * {a2} * {a2} = "+ (a1*a2*a2));
+                    break;
             }
             Console.WriteLine("Hello, World!");
             int number=60;
